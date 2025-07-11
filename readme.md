@@ -1,5 +1,16 @@
 # Custom kali shell
 
+
+<div align="center">
+
+![Build](https://img.shields.io/badge/Build-Passing-success?style=for-the-badge&logo=github)
+![Language](https://img.shields.io/badge/Made_with-C-blue?style=for-the-badge&logo=c)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=open-source-initiative)
+![Readline](https://img.shields.io/badge/Uses-GNU%20Readline-yellow?style=for-the-badge&logo=gnu)
+![Platform](https://img.shields.io/badge/Platform-Linux-informational?style=for-the-badge&logo=linux)
+
+</div>
+
 A minimal yet feature-rich Unix-like shell written in C — inspired by Kali Linux workflows.  
 It supports common shell features such as command execution, pipelines, redirection, aliases, and job control, all wrapped in a lightweight interactive shell environment.
 
