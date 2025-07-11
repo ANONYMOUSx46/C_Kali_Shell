@@ -1,4 +1,4 @@
-# kali_shell
+# Custom kali shell
 
 A minimal yet feature-rich Unix-like shell written in C — inspired by Kali Linux workflows.  
 It supports common shell features such as command execution, pipelines, redirection, aliases, and job control, all wrapped in a lightweight interactive shell environment.
@@ -35,17 +35,29 @@ It supports common shell features such as command execution, pipelines, redirect
 ## 📁 File Structure
 
 kali_shell/
+<br>
 ├── include/ # Header files (parser.h, executor.h, utils.h, etc.)
+<br>
 ├── src/ # Source files
+<br>
 │ ├── main.c # Shell entry point
+<br>
 │ ├── parser.c # Input parsing and command struct creation
+<br>
 │ ├── executor.c # Handles execution logic, redirection, pipelines
+<br>
 │ ├── builtins.c # Implements built-in commands
+<br>
 │ ├── history.c # Read/write shell history
+<br>
 │ ├── config.c # Prompt configuration and aliases
+<br>
 │ ├── prompt.c # Custom prompt rendering
+<br>
 │ └── utils.c # Utility helpers like trim_whitespace
+<br>
 ├── Makefile # Build script
+<br>
 └── README.md # Project overview
 
 
@@ -84,16 +96,19 @@ hello
 kali_shell> alias hi='echo hello world'
 kali_shell> hi
 hello world
+```
 
-🧠 Why This Shell?
+### 🧠 Why This Shell?
 
 This project was created as a custom Linux terminal emulator focused on simplicity and extendability, especially for penetration testing workflows (e.g., quickly running recon commands).
 It serves as a solid foundation for scripting, automation, or building more advanced interactive tools.
-📜 License
+
+### 📜 License
 
 This project is licensed under the MIT License.
-🙌 Credits
 
-    Developed using C11 and GNU Readline
+### 🙌 Credits
 
-    Inspired by Unix shell behavior and the Kali Linux environment
+Fully built by me, ANONYMOUSx46
+Developed using C11 and GNU Readline
+Inspired by Unix shell behavior and the Kali Linux environment
